@@ -1,0 +1,4 @@
+interface:
+  display_name: "拾页 Scraply"
+  short_description: "把照片做成手账拼贴；默认经典版，输入 @S 开启丰富随机版。"
+  default_prompt: "Use $scraply to turn these uploaded images into one finished classic double-page scrapbook spread. Add @S only when richer random notebook accessories are wanted."
