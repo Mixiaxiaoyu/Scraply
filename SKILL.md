@@ -65,6 +65,7 @@ Do not wait for the user to upload sticker references. Infer the scrapbook theme
    - birthday / party: cake, candles, gift labels, confetti stickers, date badges
    - study / work: stationery stickers, tabs, checklist labels, clips, memo notes
    - fan / pop / playful: merch-style sticker pack, bold word stickers, comic bubbles, barcode/tag stickers
+   - Sticker trigger strength matters: for each hero photo, add 2-4 obvious theme-matched sticker or ephemera elements; for each supporting photo, add 1-2 obvious theme-matched sticker or ephemera elements. Across the full spread, aim for at least 6-12 clearly readable theme-linked sticker, label, stamp, or ephemera pieces.
 8. Choose one visibly distinct decor system:
    - silhouette stickers: cutout people, objects, plants, landmarks, trees, travel shapes
    - kiss-cut sticker pack: white-border die-cut characters, photo cutout figures, merch-style sticker pieces, small name tags, barcode strips, comic labels, and speech bubbles
@@ -85,6 +86,9 @@ Do not wait for the user to upload sticker references. Infer the scrapbook theme
 - In default mode, keep the physical notebook body restrained and stable. Do not force a distinctive cover, ring binding, strap, charm chain, or heavy accessory system.
 - In rich-random mode (`@S`), the physical notebook body must have at least one distinctive feature beyond plain pages: visible cover edge, clasp, rings, elastic, bookmark ribbon, tab dividers, clear sleeve, charm chain, clip system, or pen loop.
 - Randomize the notebook body and accessories only in rich-random mode. In default mode, keep variation mostly inside layout, stickers, text, photo sizing, tickets, and tape.
+- In default mode, keep the page clean but not sparse. Prioritize clearly readable sticker groups over excessive empty paper.
+- Sticker triggering should feel strong at first glance: the viewer should immediately read the theme from the sticker system, not only from the photos.
+- In rich-random mode (`@S`), increase sticker density and variety beyond the default mode, not only notebook-body richness.
 - Randomize the title position each run. Do not keep placing the main title on the left by habit.
 - Make the title placement feel intentional: it should use available blank space, avoid covering faces or key subjects, and visually balance the photos, stickers, and tickets.
 - Keep charms, clips, and paperclips near page edges, spine, or cover edges so they enrich the object without covering the user photos.
@@ -132,9 +136,10 @@ Rich-random mode only when @S is present: randomize the physical notebook body w
 Use a randomized page-role split: one page can be photo-heavy while the other is mostly clean handwriting, silhouette stickers, doodles, tickets, labels, and blank paper.
 Randomize the main title placement: choose top-left, top-right, upper-center, slightly across the spine, above the hero photo, or on the cleaner text page. Do not default to a left-side title. Use the blankest balanced area and keep the title clear of major subjects.
 Infer the theme from the photos and automatically trigger matching stickers: subject cutouts, animal/plant/transport/food/study icons, theme labels, and mood-matched decorative pieces.
+Sticker strength rule: for each hero photo, add 2-4 obvious strongly related sticker, label, stamp, or ephemera elements; for each supporting photo, add 1-2. Across the spread, make sure there are at least 6-12 clearly readable theme-linked sticker or ephemera pieces. Default mode should still feel clean, but not weak. @S mode should feel even stronger.
 Use a visibly distinct decor system: kiss-cut white-border character stickers, silhouette stickers, graphic word stickers, mini photo stickers, hand-drawn blue doodles, printed stickers, paper ephemera, transparent stickers, or tape-and-label details.
 Use the kiss-cut sticker language when appropriate: die-cut white outlines, merch sticker pack feeling, photo cutout characters, comic speech bubbles, barcode/tag stickers, bold outlined word stickers, and small irregular sticker clusters.
-Keep the paper clean and fresh with visible blank cream/white/grid areas, medium detail, balanced spacing, no dirty texture, no sticker overload.
+Keep the paper clean and fresh with visible blank cream/white/grid areas, medium detail, balanced spacing, no dirty texture, and no chaotic clutter. Do not make the spread feel empty or under-decorated.
 Use chunky cobalt-blue marker handwriting and doodles.
 Visible text: Chinese and English only; no Japanese, no kana, no pseudo-Japanese.
 Vary the copy every run. Use a fresh mix of short titles, labels, speech bubbles, route notes, checklists, and ticket/date stamps such as 今日小记, 风景收集, 旅途碎片, 慢慢走, 城市漫游, 山野来信, 路过这里, 把风装进口袋, 这一刻很轻, 值得记住, Weekend Notes, Field Notes, Memory Map, tiny stop, soft pause, keep this. Avoid repeating the same TRAVEL DIARY / GOOD DAY wording by default.
@@ -151,8 +156,9 @@ Check the generated image before responding:
 - The output is an open notebook / double-page spread unless the user asked otherwise.
 - The two pages have different roles.
 - The main title is not always on the left; its placement looks intentionally chosen for this layout and uses available blank space without covering key subjects.
+- Sticker triggering is visibly strong: hero photos have clear related sticker groups, supporting photos also have noticeable matching sticker cues, and the spread theme is readable at a glance.
 - If `@S` was absent, the result follows the perfect classic style: clean blue cutting mat, open cream grid notebook, strong white-border photo/sticker/ticket composition, restrained accessories, and no overbuilt notebook body.
-- If `@S` was present, the physical notebook body is not plain: it has a visible distinctive cover/binding/strap/tab/clip/charm feature, with varied plausible accessories placed on edges without covering important photo subjects.
+- If `@S` was present, the physical notebook body is not plain: it has a visible distinctive cover/binding/strap/tab/clip/charm feature, with varied plausible accessories placed on edges without covering important photo subjects, and sticker strength is at least as strong as the default mode.
 - The decor system is visibly specific, not the same generic tape/label set every run.
 - Stickers clearly match the scrapbook theme inferred from the photos, such as nature stickers for nature photos, transit/ticket stickers for city travel, food stickers for cafe images, or white-border cutout/person stickers for portraits.
 - Text is Chinese/English only, date labels use the current invocation date, and the copy is not the same fixed set of title/checklist/speech-bubble phrases from previous runs.
